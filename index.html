@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Giphy</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- <script type="text/javascript" src="assests/javascript/script.js"></script> -->
+	<!-- We need to bring in the bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   <script type="text/javascript" src="assets/javascript/script.js"></script>
+</head>
+<body>
+<!-- container to hold the buttons and form -->
+ <div class="container">
+  <div class="jumbotron">	
+  	<!--Row1  -->
+	<div class="row">
+	<!-- column1 for row1 -->
+		<div class="col-md-12" >
+			<!-- Rendered Buttons will get Dumped Here  -->
+    		<div id="buttons-view"></div>			
+		</div>	
+	</div>	
+	<!-- Row2 -->
+	<div class="row">
+	<!-- Column2 for row2 -->
+	 <div class="col-md-9">
+	  <div id="foodImages" >
+
+	  </div>
+	 </div>
+
+		<div class="col-md-3">
+			<form id="food-form" >
+      			<label for="food-input">Add You Favourite Food</label>
+      			<input type="text" id="food-input"><br>
+      <!-- Button triggers new food to be added -->
+      			<input class = "btn-primary" id="add-food" type="submit" value="Add You Favourite Food">
+    		</form>
+		</div>
+	</div>	
+	<!-- toput in the gif -->
+	<!-- <div class="row">
+	   <div id="foodImages"></div>
+	</div> -->
+ </div>
+</div>
+</body>
+</html>
