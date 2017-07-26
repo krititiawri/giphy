@@ -8,7 +8,7 @@
     var foodAttr = $(this).attr("data-name");
 
     console.log(foodAttr);
-     var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
         foodAttr + "&api_key=dc6zaTOxFJmzC&limit=10";
          $.ajax({
         url: queryURL,
